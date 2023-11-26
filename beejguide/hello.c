@@ -21,7 +21,7 @@ int main(void)
 
 	int z = 10;
 	printf("z is %d\n", z);
-	int *p = &z;
+	int *p = &z; // do we need a pointer to pass a pointer to a fxn?
 	printf("z is %d\n", *p);
 	printf("address of z is %p\n", (void *)&i);
 }
