@@ -24,4 +24,9 @@ int main(void)
 	int *p = &z; // do we need a pointer to pass a pointer to a fxn?
 	printf("z is %d\n", *p);
 	printf("address of z is %p\n", (void *)&i);
+
+	int q[5] = {1,2,3,4};
+	for (int i; i<5; i++) {
+		printf("Value in array a is: %d at index: %d", q[i], i);
+	}
 }
