@@ -18,4 +18,10 @@ int main(void)
 	char *s = "Hello World!"; // char* (char pointer) is the string type
 	printf("Hello world\n"); // imma comment
 	printf("%s i = %d and f = %f!\n", s, i, f);
+
+	int z = 10;
+	printf("z is %d\n", z);
+	int *p = &z;
+	printf("z is %d\n", *p);
+	printf("address of z is %p\n", (void *)&i);
 }
